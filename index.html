@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Social Credit</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Social Credit Quizz</h>
+        </div>
+        <div>
+            <p id="pregunta"></p>
+        </div>
+        <div>
+            <p id="respuestaA"></p>
+            <p id="respuestaB"></p>
+            <p id="respuestaC"></p>
+            <p id="respuestaD"></p>
+        </div>
+        <div>
+            <button onclick="respuestas('A')">A</button>
+            <button onclick="respuestas('B')">B</button>
+            <button onclick="respuestas('C')">C</button>
+            <button onclick="respuestas('D')">D</button>
+        </div>
+        <button onclick="start()" id="listo"></button>
+        <button onclick="siguientePregunta()" id="siguiente"></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
